@@ -1,0 +1,97 @@
+{
+    "Team": [
+        {"Team1": [
+            {
+                "Name": "Rahul",
+                        "Role": "WK"
+            },
+            {
+                "Name": "prithiv",
+                        "Role": "BAT"
+            },
+            {
+                "Name": "Mayank",
+                        "Role": "BAT"
+            },
+            {
+                "Name": "Kohli",
+                        "Role": "BAT"
+            },
+            {
+                "Name": "Iyer",
+                        "Role": "BAT"
+            },
+            {
+                "Name": "kedhar",
+                        "Role": "ALL"
+            },
+            {
+                "Name": "Jadeja",
+                        "Role": "ALL"
+            },
+            {
+                "Name": "thakur",
+                        "Role": "BOWL"
+            },
+            {
+                "Name": "Chahal",
+                        "Role": "BOWL"
+            },
+            {
+                "Name": "Saini",
+                        "Role": "BOWL"
+            },
+            {
+                "Name": "Bumrah",
+                        "Role": "BOWL"
+            }
+        ]},
+        {"Team2": [
+            {
+                "Name": "Tom latham",
+                "Role": "WK"
+            },
+            {
+                "Name": "blundell",
+                "Role": "WK"
+            },
+            {
+                "Name": "Tim southee",
+                "Role": "BOWL"
+            },
+            {
+                "Name": "Bennett",
+                "Role": "BOWL"
+            },
+            {
+                "Name": "Guptill",
+                "Role": "BAT"
+            },
+            {
+                "Name": "Niclos",
+                "Role": "BAT"
+            },
+            {
+                "Name": "Taylor",
+                "Role": "BAT"
+            },
+            {
+                "Name": "jimmy",
+                "Role": "ALL"
+            },
+            {
+                "Name": "Santner",
+                "Role": "ALL"
+            },
+            {
+                "Name": "grandhome",
+                "Role": "ALL"
+            },
+            {
+                "Name": "jamieson",
+                "Role": "BOWL"
+            }
+
+        ]}
+    ]
+}

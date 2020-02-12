@@ -1,0 +1,119 @@
+{
+    "Team": [
+        {"Team1": [
+            {
+                "Name": "Healy",
+            	"Role": "WK",
+		"Credit": 9.5
+            },
+            {
+                "Name": "Beth Mooney",
+             	"Role": "BAT",
+		"Credit": 9.5
+            },
+            {
+                "Name": "Gardner",
+               	"Role": "BAT",
+		"Credit": 9
+            },
+            {
+                "Name": "Lanning",
+                "Role": "BAT",
+		"Credit": 9
+            },
+            {
+                "Name": "Perry",
+                "Role": "ALL",
+		"Credit": 10.5
+            },
+            {
+                "Name": "Rachael Haynes",
+              	"Role": "BAT",
+		"Credit": 8.5
+            },
+            {
+                "Name": "Molineux",
+                "Role": "BOWL",
+		"Credit": 8.5
+            },
+            {
+                "Name": "Nicola Carey",
+                "Role": "BOWL",
+		"Credit": 8.5
+            },
+            {
+                "Name": "Jonassen",
+                "Role": "ALL",
+		"Credit": 9
+            },
+            {
+                "Name": "Schutt",
+                "Role": "BOWL",
+		"Credit": 9
+            },
+            {
+                "Name": "Tayla Vlae",
+                "Role": "BOWL",
+		"Credit": 8
+            }
+        ]},
+        {"Team2": [
+            {
+                "Name": "Taniya",
+                "Role": "WK",
+		"Credit": 8
+            },
+            {
+                "Name": "Shafali",
+                "Role": "BAT",
+		"Credit": 8.5
+            },
+            {
+                "Name": "Radha Yadav",
+                "Role": "BOWL",
+		"Credit": 8.5
+            },
+            {
+                "Name": "Rajeshwari",
+                "Role": "BOWL",
+		"Credit": 8.5
+            },
+            {
+                "Name": "Smriti",
+                "Role": "BAT",
+		"Credit":  10
+            },
+            {
+                "Name": "Jemimah",
+                "Role": "BAT",
+		"Credit": 9
+            },
+            {
+                "Name": "Kaur",
+                "Role": "ALL",
+		"Credit": 9.5
+            },
+            {
+                "Name": "Deepti",
+                "Role": "ALL",
+		"Credit": 9
+            },
+            {
+                "Name": "Shikha",
+                "Role": "BOWL",
+		"Credit": 9
+            },
+            {
+                "Name": "Arundhati Reddy",
+                "Role": "BOWL",
+		"Credit": 8.5
+            },
+            {
+                "Name": "Deol",
+                "Role": "BOWL",
+		"Credit": 8
+            }
+
+        ]}
+    ]
+}
