@@ -86,10 +86,23 @@ class Getteam:
     def worker(name="format.json"):
         obj = Getteam(name)
         team = obj.pickrandom()
-        for s in sorted(team, key=lambda i: i['Role']):
-	    print(s)
-            #print("\n")
-            #print ("Player Name and Role: " + s['Name'] + ', ' + s['Role'])
+        sorted_team = sorted(team, key=lambda i: i['Role'])
+        wk = [s for s in sorted_team if s['Role'] == "WK"]
+        bat = [s for s in sorted_team if s['Role'] == "BAT"]
+        bowl = [s for s in sorted_team if s['Role'] == "BOWL"]
+        allround = [s for s in sorted_team if s['Role'] == "ALL"]
+        print("\n<<<<<<<<<Wicket Keepers<<<<<<<<<<")
+        for s in wk:
+            print(s['Name'])
+        print("\n<<<<<<<<<<<<Batsmen<<<<<<<<<<<<<<")
+        for s in bat:
+            print(s['Name'])
+        print("\n<<<<<<<<<<<<Bowlers<<<<<<<<<<<<<<")
+        for s in bowl:
+            print(s['Name'])
+        print("\n<<<<<<<<<<<AllRounders<<<<<<<<<<<")
+        for s in allround:
+            print(s['Name'])
         cap = random.sample(team, 2)
         print (
             "\nCAPTAIN: " +
@@ -114,20 +127,21 @@ if __name__ == "__main__":
                 con = raw_input("Do you want one more team? (Y/N): ").lower()
                 if con == "yes" or con == "y":
                     ret = Getteam.worker(sys.argv[1])
-		    while True:
-        		print("================================================================")
-		    	opt = raw_input(
-            		    "Are you Statisfied with the Selection (Y/N): ").lower()
-		    	if opt == "no" or opt == "n":
-			    cap = random.sample(ret, 2)
-            		    print (
-                	    	"\nCAPTAIN: " +
-                	    	cap[0]['Name'] +
-                	    	"\tVICE-CAPTAIN: " +
-                	    	cap[1]['Name'] +
-                	    	"\n")
-			else:
-			    break
+                    while True:
+                        print(
+                            "================================================================")
+                        opt = raw_input(
+                            "Are you Statisfied with the Selection (Y/N): ").lower()
+                        if opt == "no" or opt == "n":
+                            cap = random.sample(ret, 2)
+                            print (
+                                "\nCAPTAIN: " +
+                                cap[0]['Name'] +
+                                "\tVICE-CAPTAIN: " +
+                                cap[1]['Name'] +
+                                "\n")
+                        else:
+                            break
                 elif con == "no" or con == "n":
                     break
                 else:
@@ -136,13 +150,13 @@ if __name__ == "__main__":
             print("\n")
             sys.exit(0)
         elif opt == "no" or opt == "n":
-	    cap = random.sample(ret, 2)
+            cap = random.sample(ret, 2)
             print (
-            	"\nCAPTAIN: " +
-            	cap[0]['Name'] +
-            	"\tVICE-CAPTAIN: " +
-            	cap[1]['Name'] +
-            	"\n")
+                "\nCAPTAIN: " +
+                cap[0]['Name'] +
+                "\tVICE-CAPTAIN: " +
+                cap[1]['Name'] +
+                "\n")
         else:
             print("Sorry, I didn't Understand that.Please Say Yes or NO (Y/N)")
             continue
