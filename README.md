@@ -1,2 +1,3 @@
 # TeamPicker
-Random Team Picker
+Random Team Picker\
+python3 teampicker.py jsonfilename
