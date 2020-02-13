@@ -97,7 +97,7 @@ class Getteam:
             "\tVICE-CAPTAIN: " +
             cap[1]['Name'] +
             "\n")
-        return 0
+        return team
 
 
 if __name__ == "__main__":
@@ -114,6 +114,20 @@ if __name__ == "__main__":
                 con = raw_input("Do you want one more team? (Y/N): ").lower()
                 if con == "yes" or con == "y":
                     ret = Getteam.worker(sys.argv[1])
+		    while True:
+        		print("================================================================")
+		    	opt = raw_input(
+            		    "Are you Statisfied with the Selection (Y/N): ").lower()
+		    	if opt == "no" or opt == "n":
+			    cap = random.sample(ret, 2)
+            		    print (
+                	    	"\nCAPTAIN: " +
+                	    	cap[0]['Name'] +
+                	    	"\tVICE-CAPTAIN: " +
+                	    	cap[1]['Name'] +
+                	    	"\n")
+			else:
+			    break
                 elif con == "no" or con == "n":
                     break
                 else:
@@ -122,10 +136,13 @@ if __name__ == "__main__":
             print("\n")
             sys.exit(0)
         elif opt == "no" or opt == "n":
-	    if len(sys.argv) == 2:
-            	ret = Getteam.worker(sys.argv[1])
-	    else:
-		ret = Getteam.worker()
+	    cap = random.sample(ret, 2)
+            print (
+            	"\nCAPTAIN: " +
+            	cap[0]['Name'] +
+            	"\tVICE-CAPTAIN: " +
+            	cap[1]['Name'] +
+            	"\n")
         else:
             print("Sorry, I didn't Understand that.Please Say Yes or NO (Y/N)")
             continue
