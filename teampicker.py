@@ -97,11 +97,11 @@ class Getteam:
         print("\n<<<<<<<<<<<<Batsmen<<<<<<<<<<<<<<")
         for s in bat:
             print(s['Name'])
-        print("\n<<<<<<<<<<<<Bowlers<<<<<<<<<<<<<<")
-        for s in bowl:
-            print(s['Name'])
         print("\n<<<<<<<<<<<AllRounders<<<<<<<<<<<")
         for s in allround:
+            print(s['Name'])
+        print("\n<<<<<<<<<<<<Bowlers<<<<<<<<<<<<<<")
+        for s in bowl:
             print(s['Name'])
         cap = random.sample(team, 2)
         print (
