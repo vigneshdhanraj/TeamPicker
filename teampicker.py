@@ -116,8 +116,8 @@ class Getteam:
         bat = [s for s in sorted_team if s['Role'] == "BAT"]
         bowl = [s for s in sorted_team if s['Role'] == "BOWL"]
         allround = [s for s in sorted_team if s['Role'] == "ALL"]
-        Getteam(name).output_printer(wk, bat, bowl, allround)
-        Getteam(name).selecting_cap(sorted_team)
+        obj.output_printer(wk, bat, bowl, allround)
+        obj.selecting_cap(sorted_team)
         return sorted_team
 
 
