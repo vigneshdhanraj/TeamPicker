@@ -2,116 +2,116 @@
     "Team": [
         {"Team1": [
             {
-                "Name": "Healy",
+                "Name": "Kock",
             	"Role": "WK",
-		"Credit": 9.5
-            },
-            {
-                "Name": "Beth Mooney",
-             	"Role": "BAT",
-		"Credit": 9.5
-            },
-            {
-                "Name": "Gardner",
-               	"Role": "BAT",
-		"Credit": 9
-            },
-            {
-                "Name": "Lanning",
-                "Role": "BAT",
-		"Credit": 9.5
-            },
-            {
-                "Name": "Perry",
-                "Role": "ALL",
 		"Credit": 10.5
             },
             {
-                "Name": "Rachael Haynes",
+                "Name": "D Pretorius",
+             	"Role": "ALL",
+		"Credit": 8.5
+            },
+            {
+                "Name": "T Bavuma",
+               	"Role": "BAT",
+		"Credit": 8.5
+            },
+            {
+                "Name": "R Van Der",
+                "Role": "BAT",
+		"Credit": 9
+            },
+            {
+                "Name": "J Smuts",
+                "Role": "ALL",
+		"Credit": 8
+            },
+            {
+                "Name": "Miller",
               	"Role": "BAT",
-		"Credit": 8.5
+		"Credit": 9
             },
             {
-                "Name": "A Sutherland",
-                "Role": "ALL",
-		"Credit": 8
-            },
-            {
-                "Name": "Nicola Carey",
-                "Role": "BOWL",
-		"Credit": 8
-            },
-            {
-                "Name": "Jonassen",
+                "Name": "A Phehlu",
                 "Role": "ALL",
 		"Credit": 8.5
             },
             {
-                "Name": "Schutt",
+                "Name": "Steyn",
                 "Role": "BOWL",
 		"Credit": 9
             },
             {
-                "Name": "Tayla Vlae",
+                "Name": "B Hendricks",
+                "Role": "BOWL",
+		"Credit": 8.5
+            },
+            {
+                "Name": "Ngidi",
+                "Role": "BOWL",
+		"Credit": 8.5
+            },
+            {
+                "Name": "Shamsi",
                 "Role": "BOWL",
 		"Credit": 8.5
             }
         ]},
         {"Team2": [
             {
-                "Name": "Taniya",
+                "Name": "Buttler",
                 "Role": "WK",
-		"Credit": 8
-            },
-            {
-                "Name": "Shafali",
-                "Role": "BAT",
-		"Credit": 8.5
-            },
-            {
-                "Name": "Radha Yadav",
-                "Role": "BOWL",
-		"Credit": 8.5
-            },
-            {
-                "Name": "Rajeshwari",
-                "Role": "BOWL",
-		"Credit": 8.5
-            },
-            {
-                "Name": "Smriti",
-                "Role": "BAT",
-		"Credit":  10.5
-            },
-            {
-                "Name": "Jemimah",
-                "Role": "BAT",
-		"Credit": 9
-            },
-            {
-                "Name": "Kaur",
-                "Role": "ALL",
 		"Credit": 10
             },
             {
-                "Name": "Deepti",
-                "Role": "ALL",
+                "Name": "Jason Roy",
+                "Role": "BAT",
+		"Credit": 10
+            },
+            {
+                "Name": "C Jordon",
+                "Role": "BOWL",
 		"Credit": 9
             },
             {
-                "Name": "Shikha",
+                "Name": "A Rashid",
                 "Role": "BOWL",
 		"Credit": 8.5
             },
             {
-                "Name": "Arundhati Reddy",
-                "Role": "BOWL",
-		"Credit": 8
+                "Name": "J Bairstow",
+                "Role": "WK",
+		"Credit":  9.5
             },
             {
-                "Name": "Deol",
+                "Name": "Joe Denly",
+                "Role": "BAT",
+		"Credit": 8.5
+            },
+            {
+                "Name": "E Morgan",
+                "Role": "BAT",
+		"Credit": 9
+            },
+            {
+                "Name": "Ben Stokes",
                 "Role": "ALL",
-		"Credit": 8
+		"Credit": 9.5
+            },
+            {
+                "Name": "Moeen Ali",
+                "Role": "ALL",
+		"Credit": 8.5
+            },
+            {
+                "Name": "T Curran",
+                "Role": "BOWL",
+		"Credit": 8.5
+            },
+            {
+                "Name": "M Wood",
+                "Role": "BOWL",
+		"Credit": 8.5
             }
 
         ]}

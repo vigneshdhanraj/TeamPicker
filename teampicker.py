@@ -82,15 +82,7 @@ class Getteam:
             sample = self.pickrandom()
         return sample
 
-    @staticmethod
-    def worker(name="format.json"):
-        obj = Getteam(name)
-        team = obj.pickrandom()
-        sorted_team = sorted(team, key=lambda i: i['Role'])
-        wk = [s for s in sorted_team if s['Role'] == "WK"]
-        bat = [s for s in sorted_team if s['Role'] == "BAT"]
-        bowl = [s for s in sorted_team if s['Role'] == "BOWL"]
-        allround = [s for s in sorted_team if s['Role'] == "ALL"]
+    def output_printer(self, wk, bat, bowl, allround):
         print("\n<<<<<<<<<Wicket Keepers<<<<<<<<<<")
         for s in wk:
             print(s['Name'])
@@ -103,6 +95,9 @@ class Getteam:
         print("\n<<<<<<<<<<<<Bowlers<<<<<<<<<<<<<<")
         for s in bowl:
             print(s['Name'])
+        return 0
+
+    def selecting_cap(self, team):
         cap = random.sample(team, 2)
         print (
             "\nCAPTAIN: " +
@@ -110,10 +105,31 @@ class Getteam:
             "\tVICE-CAPTAIN: " +
             cap[1]['Name'] +
             "\n")
-        return team
+        return 0
+
+    @staticmethod
+    def worker(name="format.json"):
+        obj = Getteam(name)
+        team = obj.pickrandom()
+        sorted_team = sorted(team, key=lambda i: i['Role'])
+        wk = [s for s in sorted_team if s['Role'] == "WK"]
+        bat = [s for s in sorted_team if s['Role'] == "BAT"]
+        bowl = [s for s in sorted_team if s['Role'] == "BOWL"]
+        allround = [s for s in sorted_team if s['Role'] == "ALL"]
+        Getteam(name).output_printer(wk, bat, bowl, allround)
+        Getteam(name).selecting_cap(sorted_team)
+        return sorted_team
 
 
-if __name__ == "__main__":
+def pickteams(name="format.json"):
+    i = 1
+    while i <= 11:
+        ret = Getteam.worker(name)
+        i = i + 1
+    return 0
+
+
+def work(name="format.json"):
     if len(sys.argv) == 2:
         ret = Getteam.worker(sys.argv[1])
     else:
@@ -148,7 +164,7 @@ if __name__ == "__main__":
                     print("Sorry, I didn't Understand that.Please Say Yes or NO (Y/N)")
                     continue
             print("\n")
-            sys.exit(0)
+            return 0
         elif opt == "no" or opt == "n":
             cap = random.sample(ret, 2)
             print (
@@ -160,3 +176,19 @@ if __name__ == "__main__":
         else:
             print("Sorry, I didn't Understand that.Please Say Yes or NO (Y/N)")
             continue
+    return 0
+
+
+if __name__ == "__main__":
+    opt = raw_input(
+        "Select any one option: 1) ONE BY ONE  Mode 2) AUTO Mode: ")
+    if len(sys.argv) == 2:
+        if opt == "2":
+            ret = pickteams(sys.argv[1])
+        else:
+            ret = work(sys.argv[1])
+    else:
+        if opt == "2":
+            ret = pickteams()
+        else:
+            ret = work()
