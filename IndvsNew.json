@@ -2,94 +2,116 @@
     "Team": [
         {"Team1": [
             {
-                "Name": "Rahul",
-                        "Role": "WK"
+                "Name": "Saha",
+            	"Role": "WK",
+		"Credit": 8.5
             },
             {
-                "Name": "prithiv",
-                        "Role": "BAT"
+                "Name": "Prithiv Shaw",
+             	"Role": "BAT",
+		"Credit": 8
             },
             {
                 "Name": "Mayank",
-                        "Role": "BAT"
+               	"Role": "BAT",
+		"Credit": 85
             },
             {
-                "Name": "Kohli",
-                        "Role": "BAT"
+                "Name": "Pujara",
+                "Role": "BAT",
+		"Credit": 9.5
             },
             {
-                "Name": "Iyer",
-                        "Role": "BAT"
+                "Name": "Kholi",
+                "Role": "BAT",
+		"Credit": 10.5
             },
             {
-                "Name": "kedhar",
-                        "Role": "ALL"
+                "Name": "Rahane",
+              	"Role": "BAT",
+		"Credit": 9
             },
             {
-                "Name": "Jadeja",
-                        "Role": "ALL"
+                "Name": "Ashwin",
+                "Role": "ALL",
+		"Credit": 9
             },
             {
-                "Name": "thakur",
-                        "Role": "BOWL"
-            },
-            {
-                "Name": "Chahal",
-                        "Role": "BOWL"
-            },
-            {
-                "Name": "Saini",
-                        "Role": "BOWL"
+                "Name": "Vihari",
+                "Role": "ALL",
+		"Credit": 8
             },
             {
                 "Name": "Bumrah",
-                        "Role": "BOWL"
+                "Role": "BOWL",
+		"Credit": 9
+            },
+            {
+                "Name": "Shami",
+                "Role": "BOWL",
+		"Credit": 9
+            },
+            {
+                "Name": "Ishant",
+                "Role": "BOWL",
+		"Credit": 8.5
             }
         ]},
         {"Team2": [
             {
-                "Name": "Tom latham",
-                "Role": "WK"
+                "Name": "BJ Watling",
+                "Role": "WK",
+		"Credit": 8.5
             },
             {
-                "Name": "blundell",
-                "Role": "WK"
+                "Name": "Tom Latham",
+                "Role": "BAT",
+		"Credit": 9
             },
             {
-                "Name": "Tim southee",
-                "Role": "BOWL"
+                "Name": "Blundell",
+                "Role": "WK",
+		"Credit": 8
             },
             {
-                "Name": "Bennett",
-                "Role": "BOWL"
+                "Name": "Kane Williamson",
+                "Role": "BAT",
+		"Credit": 10
             },
             {
-                "Name": "Guptill",
-                "Role": "BAT"
+                "Name": "Ross Taylor",
+                "Role": "BAT",
+		"Credit": 9.5
             },
             {
-                "Name": "Niclos",
-                "Role": "BAT"
+                "Name": "Henry Nicholls",
+                "Role": "BAT",
+		"Credit": 8.5
             },
             {
-                "Name": "Taylor",
-                "Role": "BAT"
+                "Name": "Colin De Grandhome",
+                "Role": "ALL",
+		"Credit": 8.5
             },
             {
-                "Name": "jimmy",
-                "Role": "ALL"
+                "Name": "D Mitchell",
+                "Role": "ALL",
+		"Credit": 8
             },
             {
-                "Name": "Santner",
-                "Role": "ALL"
+                "Name": "T Boult",
+                "Role": "BOWL",
+		"Credit": 9
             },
             {
-                "Name": "grandhome",
-                "Role": "ALL"
+                "Name": "Tim Southee",
+                "Role": "BOWL",
+		"Credit": 9
             },
             {
-                "Name": "jamieson",
-                "Role": "BOWL"
+                "Name": "Kyle Jamieson",
+                "Role": "BOWL",
+		"Credit": 8
             }
 
         ]}
