@@ -1,0 +1,119 @@
+{
+    "Team": [
+        {"Team1": [
+            {
+                "Name": "Pooran",
+            	"Role": "WK",
+		"Credit": 9.5
+            },
+            {
+                "Name": "Russell",
+             	"Role": "ALL",
+		"Credit": 10.5
+            },
+            {
+                "Name": "Simmons",
+               	"Role": "BAT",
+		"Credit": 8.5
+            },
+            {
+                "Name": "Shai Hope",
+                "Role": "WK",
+		"Credit": 8.5
+            },
+            {
+                "Name": "Hetmyer",
+                "Role": "BAT",
+		"Credit": 9.5
+            },
+            {
+                "Name": "Pollard",
+              	"Role": "BAT",
+		"Credit": 9
+            },
+            {
+                "Name": "Bravo",
+                "Role": "ALL",
+		"Credit": 9
+            },
+            {
+                "Name": "Fabian Allen",
+                "Role": "ALL",
+		"Credit": 8
+            },
+            {
+                "Name": "Cottrell",
+                "Role": "BOWL",
+		"Credit": 9
+            },
+            {
+                "Name": "Hayden Walsh",
+                "Role": "BOWL",
+		"Credit": 8
+            },
+            {
+                "Name": "Williams",
+                "Role": "BOWL",
+		"Credit": 8.5
+            }
+        ]},
+        {"Team2": [
+            {
+                "Name": "Dickwella",
+                "Role": "WK",
+		"Credit": 9
+            },
+            {
+                "Name": "Avishka Fernando",
+                "Role": "BAT",
+		"Credit": 8.5
+            },
+            {
+                "Name": "Malliga",
+                "Role": "BOWL",
+		"Credit": 9.5
+            },
+            {
+                "Name": "Udana",
+                "Role": "BOWL",
+		"Credit": 8.5
+            },
+            {
+                "Name": "Kusal Perera",
+                "Role": "WK",
+		"Credit":  9
+            },
+            {
+                "Name": "Kusal Mendis",
+                "Role": "BAT",
+		"Credit": 8.5
+            },
+            {
+                "Name": "Mathews",
+                "Role": "BAT",
+		"Credit": 9
+            },
+            {
+                "Name": "Shanaka",
+                "Role": "ALL",
+		"Credit": 8.5
+            },
+            {
+                "Name": "Thisara Perara",
+                "Role": "ALL",
+		"Credit": 9.5
+            },
+            {
+                "Name": "Lahiru Kumara",
+                "Role": "BOWL",
+		"Credit": 8
+            },
+            {
+                "Name": "Hasaranga",
+                "Role": "ALL",
+		"Credit": 8.5
+            }
+
+        ]}
+    ]
+}
