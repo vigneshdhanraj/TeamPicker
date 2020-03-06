@@ -4,7 +4,7 @@
             {
                 "Name": "Kock",
             	"Role": "WK",
-		"Credit": 10.5
+		"Credit": 11
             },
             {
                 "Name": "D Pretorius",
@@ -12,24 +12,24 @@
 		"Credit": 8.5
             },
             {
-                "Name": "T Bavuma",
-               	"Role": "BAT",
+                "Name": "H Klaasen",
+               	"Role": "WK",
 		"Credit": 8.5
             },
             {
                 "Name": "R Van Der",
                 "Role": "BAT",
-		"Credit": 9
+		"Credit": 8.5
             },
             {
-                "Name": "J Smuts",
-                "Role": "ALL",
-		"Credit": 8
+                "Name": "Faf du",
+                "Role": "BAT",
+		"Credit": 9
             },
             {
                 "Name": "Miller",
               	"Role": "BAT",
-		"Credit": 9
+		"Credit": 8.5
             },
             {
                 "Name": "A Phehlu",
@@ -39,12 +39,12 @@
             {
                 "Name": "Steyn",
                 "Role": "BOWL",
-		"Credit": 9
+		"Credit": 8.5
             },
             {
-                "Name": "B Hendricks",
+                "Name": "Rabada",
                 "Role": "BOWL",
-		"Credit": 8.5
+		"Credit": 9
             },
             {
                 "Name": "Ngidi",
@@ -59,57 +59,57 @@
         ]},
         {"Team2": [
             {
-                "Name": "Buttler",
+                "Name": "Alex Carey",
                 "Role": "WK",
-		"Credit": 10
+		"Credit": 8
             },
             {
-                "Name": "Jason Roy",
+                "Name": "Finch",
                 "Role": "BAT",
-		"Credit": 10
+		"Credit": 10.5
             },
             {
-                "Name": "C Jordon",
-                "Role": "BOWL",
-		"Credit": 9
-            },
-            {
-                "Name": "A Rashid",
-                "Role": "BOWL",
-		"Credit": 8.5
-            },
-            {
-                "Name": "J Bairstow",
-                "Role": "WK",
-		"Credit":  9.5
-            },
-            {
-                "Name": "Joe Denly",
+                "Name": "Warner",
                 "Role": "BAT",
-		"Credit": 8.5
+		"Credit": 10.5
             },
             {
-                "Name": "E Morgan",
+                "Name": "Smith",
                 "Role": "BAT",
-		"Credit": 9
-            },
-            {
-                "Name": "Ben Stokes",
-                "Role": "ALL",
 		"Credit": 9.5
             },
             {
-                "Name": "Moeen Ali",
-                "Role": "ALL",
+                "Name": "Wade",
+                "Role": "WK",
+		"Credit":  8
+            },
+            {
+                "Name": "Short",
+                "Role": "BAT",
 		"Credit": 8.5
             },
             {
-                "Name": "T Curran",
+                "Name": "Kane Richardson",
                 "Role": "BOWL",
 		"Credit": 8.5
             },
             {
-                "Name": "M Wood",
+                "Name": "Pat Cummins",
+                "Role": "BOWL",
+		"Credit": 9
+            },
+            {
+                "Name": "Sean Abbott",
+                "Role": "BOWL",
+		"Credit": 8
+            },
+            {
+                "Name": "Starc",
+                "Role": "BOWL",
+		"Credit": 9
+            },
+            {
+                "Name": "Zampa",
                 "Role": "BOWL",
 		"Credit": 8.5
             }
