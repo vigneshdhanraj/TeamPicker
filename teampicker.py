@@ -48,7 +48,7 @@ class Getteam:
                 bowl = bowl + 1
             elif s['Role'] == "WK":
                 wk = wk + 1
-        total_credit = sum([s['Credit'] for s in sample])
+        total_credit = sum([float(s['Credit']) for s in sample])
         if (
             (
                 (allrounder >= 1) and (
@@ -132,6 +132,8 @@ def pickteams(name="format.json"):
 def work(name="format.json"):
     if len(sys.argv) == 2:
         ret = Getteam.worker(sys.argv[1])
+    elif name != "" or name == "format.json":
+        ret = Getteam.worker(name)
     else:
         ret = Getteam.worker()
     while True:

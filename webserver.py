@@ -4,6 +4,7 @@ import json
 abspath = "/home/dhanraj/Project/TeamPicker/"
 sys.path.append(abspath)
 from teampicker import Getteam
+import teampicker
 app = Flask(__name__)
 
 @app.route('/')
@@ -17,11 +18,10 @@ def getplayerlist():
     if request.method == "POST":
     	pls = json.loads(request.data)
 	var = raw_input("Please Enter File Name: ")
-	var = abspath + var + ".json"
-	print(var)
-	with open(var, "w") as f:
-	    json.dump(pls, f, indent=4)
-	Getteam().worker(var)
+        f= open(var, "w")
+	json.dump(pls, f, indent=4)
+        f.close()
+	teampicker.work(var)
     return "Success"
 
 if __name__ == '__main__':
