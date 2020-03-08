@@ -130,10 +130,10 @@ def pickteams(name="format.json"):
 
 
 def work(name="format.json"):
-    if len(sys.argv) == 2:
-        ret = Getteam.worker(sys.argv[1])
-    elif name != "" or name == "format.json":
+    if name != "" or name != "format.json":
         ret = Getteam.worker(name)
+    elif len(sys.argv) == 2:
+        ret = Getteam.worker(sys.argv[1])
     else:
         ret = Getteam.worker()
     while True:

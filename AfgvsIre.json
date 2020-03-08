@@ -1,0 +1,122 @@
+{
+    "Team": [
+        {
+            "Team1": [
+                {
+                    "Credit": "9", 
+                    "Role": "BAT", 
+                    "Name": "Hazratullah Zazai"
+                }, 
+                {
+                    "Credit": "8", 
+                    "Role": "WK", 
+                    "Name": "Rahmanullah Gurbaz"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "BOWL", 
+                    "Name": "Karim Janat"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "BAT", 
+                    "Name": "Asghar Afghan"
+                }, 
+                {
+                    "Credit": "9", 
+                    "Role": "BAT", 
+                    "Name": "Najibullah Zadran"
+                }, 
+                {
+                    "Credit": "10", 
+                    "Role": "ALL", 
+                    "Name": "Mohammad Nabi"
+                }, 
+                {
+                    "Credit": "8", 
+                    "Role": "ALL", 
+                    "Name": "Samiullah Shenwari"
+                }, 
+                {
+                    "Credit": "9.5", 
+                    "Role": "BOWL", 
+                    "Name": "Rashid Khan"
+                }, 
+                {
+                    "Credit": "9", 
+                    "Role": "ALL", 
+                    "Name": "Gulbadin Naib"
+                }, 
+                {
+                    "Credit": "8", 
+                    "Role": "BOWL", 
+                    "Name": "Shapoor Zadran"
+                }, 
+                {
+                    "Credit": "9", 
+                    "Role": "BOWL", 
+                    "Name": "Mujeeb Ur Rahman"
+                }
+            ]
+        }, 
+        {
+            "Team2": [
+                {
+                    "Credit": "10", 
+                    "Role": "BAT", 
+                    "Name": "Paul Stirling"
+                }, 
+                {
+                    "Credit": "9.5", 
+                    "Role": "BAT", 
+                    "Name": "Kevin O Brien"
+                }, 
+                {
+                    "Credit": "9.5", 
+                    "Role": "BAT", 
+                    "Name": "Andrew Balbirnie"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "ALL", 
+                    "Name": "Gareth Delany"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "BAT", 
+                    "Name": "Harry Tector"
+                }, 
+                {
+                    "Credit": "8", 
+                    "Role": "WK", 
+                    "Name": "Lorcan Tucker"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "ALL", 
+                    "Name": "Simi Singh"
+                }, 
+                {
+                    "Credit": "9", 
+                    "Role": "BOWL", 
+                    "Name": "George Dockrell"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "BOWL", 
+                    "Name": "Boyd Rankin"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "BOWL", 
+                    "Name": "Craig Young"
+                }, 
+                {
+                    "Credit": "8", 
+                    "Role": "BOWL", 
+                    "Name": "Joshua Little"
+                }
+            ]
+        }
+    ]
+}
