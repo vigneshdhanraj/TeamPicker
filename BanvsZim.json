@@ -1,0 +1,122 @@
+{
+    "Team": [
+        {
+            "Team1": [
+                {
+                    "Credit": "10.5", 
+                    "Role": "BAT", 
+                    "Name": "Tamim Iqbal"
+                }, 
+                {
+                    "Credit": "9.5", 
+                    "Role": "WK", 
+                    "Name": "Liton Das"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "BAT", 
+                    "Name": "Mohammad Naim"
+                }, 
+                {
+                    "Credit": "10", 
+                    "Role": "WK", 
+                    "Name": "Mushfiqur Rahim"
+                }, 
+                {
+                    "Credit": "9", 
+                    "Role": "BAT", 
+                    "Name": "Mahmudullah"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "ALL", 
+                    "Name": "Afif Hossain"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "ALL", 
+                    "Name": "Mohammad Saifuddin"
+                }, 
+                {
+                    "Credit": "8", 
+                    "Role": "ALL", 
+                    "Name": "Mahedi Hasan"
+                }, 
+                {
+                    "Credit": "8", 
+                    "Role": "BOWL", 
+                    "Name": "Aminul Islam"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "BOWL", 
+                    "Name": "Shafiul Islam"
+                }, 
+                {
+                    "Credit": "9", 
+                    "Role": "BOWL", 
+                    "Name": "Mustafizur Rahman"
+                }
+            ]
+        }, 
+        {
+            "Team2": [
+                {
+                    "Credit": "8.5", 
+                    "Role": "BAT", 
+                    "Name": "Tinashe Kamunhukamwe"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "WK", 
+                    "Name": "Regis Chakabva"
+                }, 
+                {
+                    "Credit": "9", 
+                    "Role": "BAT", 
+                    "Name": "Craig Ervine"
+                }, 
+                {
+                    "Credit": "10", 
+                    "Role": "BAT", 
+                    "Name": "Brendan Taylor"
+                }, 
+                {
+                    "Credit": "9.5", 
+                    "Role": "ALL", 
+                    "Name": "Sean Williams"
+                }, 
+                {
+                    "Credit": "10", 
+                    "Role": "ALL", 
+                    "Name": "Sikandar Raza"
+                }, 
+                {
+                    "Credit": "8", 
+                    "Role": "ALL", 
+                    "Name": "Wesley Madhevere"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "WK", 
+                    "Name": "Rishmond Mutumbami"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "ALL", 
+                    "Name": "Tinotenda Mutambodzi"
+                }, 
+                {
+                    "Credit": "8", 
+                    "Role": "BOWL", 
+                    "Name": "Charlton Tshuma"
+                }, 
+                {
+                    "Credit": "8", 
+                    "Role": "BOWL", 
+                    "Name": "Carl Mumba"
+                }
+            ]
+        }
+    ]
+}
