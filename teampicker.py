@@ -144,7 +144,10 @@ def work(name="format.json"):
             while True:
                 con = raw_input("Do you want one more team? (Y/N): ").lower()
                 if con == "yes" or con == "y":
-                    ret = Getteam.worker(sys.argv[1])
+		    if name != "" or name != "format.json":
+			ret = Getteam.worker(name)
+		    else:
+                    	ret = Getteam.worker(sys.argv[1])
                     while True:
                         print(
                             "================================================================")

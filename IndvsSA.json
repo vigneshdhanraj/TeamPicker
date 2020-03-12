@@ -1,0 +1,122 @@
+{
+    "Team": [
+        {
+            "Team1": [
+                {
+                    "Credit": "9.5", 
+                    "Role": "BAT", 
+                    "Name": "S Dhawan"
+                }, 
+                {
+                    "Credit": "8", 
+                    "Role": "BAT", 
+                    "Name": "P Shaw"
+                }, 
+                {
+                    "Credit": "10.5", 
+                    "Role": "BAT", 
+                    "Name": "V Kohli"
+                }, 
+                {
+                    "Credit": "9", 
+                    "Role": "BAT", 
+                    "Name": "S Iyer"
+                }, 
+                {
+                    "Credit": "9.5", 
+                    "Role": "WK", 
+                    "Name": "L Rahul"
+                }, 
+                {
+                    "Credit": "9.5", 
+                    "Role": "ALL", 
+                    "Name": "H Pandya"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "ALL", 
+                    "Name": "R Jadeja"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "BOWL", 
+                    "Name": "B Kumar"
+                }, 
+                {
+                    "Credit": "9", 
+                    "Role": "BOWL", 
+                    "Name": "J Bumrah"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "BOWL", 
+                    "Name": "Y Chahal"
+                }, 
+                {
+                    "Credit": "8", 
+                    "Role": "BOWL", 
+                    "Name": "N Saini"
+                }
+            ]
+        }, 
+        {
+            "Team2": [
+                {
+                    "Credit": "10", 
+                    "Role": "WK", 
+                    "Name": "Q de Kock"
+                }, 
+                {
+                    "Credit": "8", 
+                    "Role": "BAT", 
+                    "Name": "J Malan"
+                }, 
+                {
+                    "Credit": "9", 
+                    "Role": "BAT", 
+                    "Name": "R Van der-Dussen"
+                }, 
+                {
+                    "Credit": "9", 
+                    "Role": "BAT", 
+                    "Name": "F du Plessis"
+                }, 
+                {
+                    "Credit": "9", 
+                    "Role": "BAT", 
+                    "Name": "H Klaasen"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "BAT", 
+                    "Name": "D Miller"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "ALL", 
+                    "Name": "A Phehlukwayo"
+                }, 
+                {
+                    "Credit": "8", 
+                    "Role": "BOWL", 
+                    "Name": "K Maharaj"
+                }, 
+                {
+                    "Credit": "8", 
+                    "Role": "BOWL", 
+                    "Name": "B Hendricks"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "BOWL", 
+                    "Name": "A Nortje"
+                }, 
+                {
+                    "Credit": "9", 
+                    "Role": "BOWL", 
+                    "Name": "L Ngidi"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,122 @@
+{
+    "Team": [
+        {
+            "Team1": [
+                {
+                    "Credit": "9.5", 
+                    "Role": "BAT", 
+                    "Name": "A Finch"
+                }, 
+                {
+                    "Credit": "10.5", 
+                    "Role": "BAT", 
+                    "Name": "D Warner"
+                }, 
+                {
+                    "Credit": "10", 
+                    "Role": "BAT", 
+                    "Name": "S Smith"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "BAT", 
+                    "Name": "M Labuschagne"
+                }, 
+                {
+                    "Credit": "8", 
+                    "Role": "ALL", 
+                    "Name": "D Sort"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "ALL", 
+                    "Name": "M Marsh"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "WK", 
+                    "Name": "A Carey"
+                }, 
+                {
+                    "Credit": "9", 
+                    "Role": "BOWL", 
+                    "Name": "P Cummins"
+                }, 
+                {
+                    "Credit": "9", 
+                    "Role": "BOWL", 
+                    "Name": "M Starc"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "BOWL", 
+                    "Name": "A Zampa"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "BOWL", 
+                    "Name": "K Richardson"
+                }
+            ]
+        }, 
+        {
+            "Team2": [
+                {
+                    "Credit": "9", 
+                    "Role": "BAT", 
+                    "Name": "M Guptil"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "BAT", 
+                    "Name": "H Nicolls"
+                }, 
+                {
+                    "Credit": "10", 
+                    "Role": "BAT", 
+                    "Name": "K Williamson"
+                }, 
+                {
+                    "Credit": "10", 
+                    "Role": "BAT", 
+                    "Name": "R Taylor"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "WK", 
+                    "Name": "T Latham"
+                }, 
+                {
+                    "Credit": "9", 
+                    "Role": "ALL", 
+                    "Name": "J Nessham"
+                }, 
+                {
+                    "Credit": "8", 
+                    "Role": "ALL", 
+                    "Name": "C de Grandhome"
+                }, 
+                {
+                    "Credit": "8", 
+                    "Role": "ALL", 
+                    "Name": "M Santner"
+                }, 
+                {
+                    "Credit": "8.5", 
+                    "Role": "BOWL", 
+                    "Name": "T Southee"
+                }, 
+                {
+                    "Credit": "8", 
+                    "Role": "BOWL", 
+                    "Name": "K jamison"
+                }, 
+                {
+                    "Credit": "9", 
+                    "Role": "BOWL", 
+                    "Name": "T Boult"
+                }
+            ]
+        }
+    ]
+}
